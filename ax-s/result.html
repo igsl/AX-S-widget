@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>AXS Demo</title>
+<meta name="Anthony Au" content="IGSL"><meta name="copyright" content="&#169; 2012 InGenius Solutions">
+<link rel="stylesheet" href="css/jquery.dataTables.css">
+<link rel="stylesheet" href="css/axs.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+<script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="js/axs-result.js"></script>
+</head>
+<body>
+<h1>AX-S Course Search Demonstrator</h1>
+<!-- AXS Content Start -->
+<!-- The heading id (search_terms) must match the axs-result.js script, 
+     and will be expanded to show the passed parameter(s) -->
+<h2 id="search_terms"></h2>
+
+<!-- The table id (datalist) must match the axs-result.js script, 
+     and the table will be populated with the results data -->
+  <table id="datalist">
+	<thead>
+	  <tr>
+		<th>Code</th>
+		<th>Title</th>
+		<th>Level</th>
+	  </tr>
+	</thead>
+	<tbody>
+	</tbody>
+  </table>
+
+<div style="margin-top:40px;width:100%;">
+  <div style="float:left;"><a href='simple.html' class="axs-link">Search again</a></div>
+  <div style="float:right;"><a href="http://xxp.org" class="axs-link" target="_blank">Powered by the XXP</a></div>
+</div>
+<!-- AXS Content End -->
+
+  </body></html>

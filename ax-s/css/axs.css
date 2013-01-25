@@ -1,0 +1,20 @@
+.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    font-size:11px;
+    font-weight: normal;
+}
+/* IE 6 doesn't support max-height
+ * we use height instead, but this forces the menu to always be this tall
+ */
+* html .ui-autocomplete {
+    height: 100px;
+}
+ul {
+list-style-type:none
+}
+.axs-link { color:#777777; text-decoration: none;}
+.axs-link:hover { color:#CC3300; }
+.search {float:right;margin-right:15px;margin-top:7px;}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>AXS Demo</title>
+<meta name="Anthony Au" content="IGSL"><meta name="copyright" content="&#169; 2012 InGenius Solutions">
+
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="css/axs.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+<script type="text/javascript" src="js/axs-search.js"></script>
+
+</head>
+<body>
+
+<!-- AXS Content Start -->   
+<h1>AX-S Course Search Demonstrator</h1>
+	<form action="result.html" method="get" class="axs-form">
+	  <fieldset>
+		<legend>Search options</legend>
+		<ul>
+		  <li>
+			<label for="axs_keyword">Search for:</label>
+			<input required type="text" id="axs_keyword" name="axs_keyword" size="50"/>
+		  </li>
+		  <li>
+			<label for="axs_education_level">Education level:</label>
+			<select id="axs_education_level" name="axs_education_level">
+                      <option value = "All" selected="selected">All</option>       
+                      <option value = "Undergraduate Module">Undergraduate Module</option>
+                      <option value = "Undergraduate Degree">Undergraduate Degree</option>
+                      <option value = "Postgraduate Module">Postgraduate Module</option>
+                      <option value = "Postgraduate Qualification">Postgraduate Qualification</option>
+                      <option value = "Foundation Degree">Foundation Degree</option>
+                      <option value = "Higher Education award">Higher Education award</option>
+			</select>
+		  </li>
+		  <li> <input type="submit" value="Search"/></li>
+		</ul>
+	  </fieldset>
+	</form>
+<div style="margin-top:15px;width:100%;">
+<div style="float:right;"><a href="http://xxp.org" class="axs-link" target="_blank">Powered by the XXP</a></div></div>
+<!-- AXS content End -->
+
+</body></html>

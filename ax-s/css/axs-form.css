@@ -1,0 +1,135 @@
+/* 
+    Document   : form
+    Created on : 23-Oct-2012, 03:21:49
+    Author     : Tony
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@charset "utf-8";
+/* CSS Document */
+
+/*Add this style if we want to show the form have been changed*/
+/*form.changed {border:1px dotted red;}*/
+
+form.axs-form{
+  width: 100%;
+  margin-top: 25px;
+}
+
+form.axs-form fieldset{
+background: rgb(247,251,252); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(247,251,252,1) 0%, rgba(217,237,242,1) 40%, rgba(173,217,228,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,251,252,1)), color-stop(40%,rgba(217,237,242,1)), color-stop(100%,rgba(173,217,228,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#add9e4',GradientType=0 ); /* IE6-9 */
+
+
+
+  padding-bottom: 8px;
+  border-radius: 9px;
+  -moz-border-radius-topright:9px;
+  -moz-border-radius-topleft:9px;
+  -moz-border-radius-bottomright:9px;
+  -moz-border-radius-bottomleft:9px;
+  -.webkit-border-radius: 9px;
+}
+
+form.axs-form legend{
+  width: auto;
+  font-size: 1.6em;
+background: rgb(207,231,250); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(207,231,250,1)), color-stop(100%,rgba(99,147,193,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+
+  font-family: "Myriad Pro",Calibri,Tahoma,"Lucida Grande",Arial,Helvetica,sans-serif;
+  padding: 6px 15px 6px 15px;
+  margin-left: 16px;
+  border-radius: 6px;
+  -.moz-border-radius: 3px;
+  -.webkit-border-radius: 3px;
+}
+
+form.axs-form fieldset ul {
+  margin-left: 13px;
+  margin-top: 0px;
+}
+
+form.axs-form fieldset ul.nav {
+  list-style-type: none;
+  margin: 0 0 0 13px;
+  padding: 0;
+}
+
+form.axs-form fieldset ul.nav li.left {
+  float: left;
+  margin-left: 15px;
+}
+
+form.axs-form fieldset ul.nav li.right {
+  float: right;
+  margin-right: 15px;
+}
+
+form.axs-form fieldset ul.nav li a {
+  vertical-align: bottom;
+  color: #0060BF;
+  font-weight: bold;
+}
+
+form.axs-form fieldset ul li {
+  margin-top: 12px;
+  margin-left: 15px;
+  list-style: none;
+}
+
+form.axs-form fieldset input[type="submit"] {
+  padding: 2px 5px 2px 5px;
+  background: #fefefd; /* Old browsers */
+  background: -moz-linear-gradient(top,  #fefefd 0%, #dce3c4 42%, #aebf76 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefd), color-stop(42%,#dce3c4), color-stop(100%,#aebf76)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #fefefd 0%,#dce3c4 42%,#aebf76 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #fefefd 0%,#dce3c4 42%,#aebf76 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #fefefd 0%,#dce3c4 42%,#aebf76 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #fefefd 0%,#dce3c4 42%,#aebf76 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefd', endColorstr='#aebf76',GradientType=0 ); /* IE6-9 */
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+form.axs-form fieldset label{
+  margin-right: 15px;
+  
+  .font-size: 15px;
+}
+
+div#ou-region1 div#main-content ul.ou-sections {
+margin-top: 10px;
+border: 1px solid #AED0EA;
+background: #DEEDF7 url(cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png) 50% 50% repeat-x;
+color: #222;
+}
+
+.div#ou-region1 div#main-content ul.ou-sections li  a{
+border: 1px solid #eee;
+background: #D6E8F0;
+}
+
+.div#ou-region1 div#main-content ul.ou-sections {
+.border: 3px solid #eee;
+background-color: #FFF;
+}
+
+
+
+
+
+
