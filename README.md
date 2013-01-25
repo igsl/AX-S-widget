@@ -1,5 +1,5 @@
-AX-S Widget
-===========
+XCRI-CAP Demonstrator project
+=============================
 
 Advanced XCRI-CAP Search widget (AX-S widget)
 ---------------------------------------------
@@ -12,4 +12,4 @@ You can try out the AX-S search on the [Demonstrator web page](http://igsl.co.uk
 
 For example, using the term "software engineering" will give you results not only in 'Software Engineering' itself at the top of the list, but also lower down the list courses in more general 'Computing', then in development using specific techniques, such as object-oriented approaches and Java. These results are all widening out from Software Engineering, or narrowing in to topics within the field.
 
-For more information on how to use the AX-S widget see the [project wiki](https://github.com/igsl/AX-S-widget/wiki/Using-the-AX-S-widget-code "AX-S widget project wiki") or for background on the widget see the [project blog](http://alanepaull.wordpress.com/category/xcri/demonstrators/ax-s-widget/ "AX-S widget project blog").
+For more information on how to use the AX-S widget see the [project wiki](https://github.com/igsl/AX-S-widget/wiki "AX-S widget project wiki") or for background on the project see the [project blog](http://alanepaull.wordpress.com/category/xcri/demonstrators/ax-s-widget/ "AX-S widget project blog").
